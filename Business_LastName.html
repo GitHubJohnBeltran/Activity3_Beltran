@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button"><img src="steinlogo.png" height="35px" width="100px"></a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button" >About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="back.gif" alt="Hamburger Catering" width="1600" height="500">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="stein.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Stein</h1><br>
+      <h5 class="w3-center">Since 2024</h5>
+      <p class="w3-large">Welcome to Stein, where timeless elegance meets contemporary style. Founded by visionary designer Beltran, About Stein is more than just a clothing brand—it's a statement of sophistication, innovation, and individuality.</p>
+      <p class="w3-large">Stein was born out of Beltran's passion for redefining fashion norms. With a keen eye for detail and a deep appreciation for craftsmanship, Beltran set out to create a brand that embodies both classic charm and modern flair. Inspired by the rich heritage of fine tailoring and the ever-evolving landscape of fashion, About Stein represents a fusion of tradition and innovation.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">At Stein, we believe that clothing is an expression of one's unique personality and style. That's why we meticulously design each piece to not only complement your wardrobe but also elevate your entire look. From exquisite fabrics to impeccable cuts, every garment is crafted with the utmost care and attention to detail, ensuring a perfect blend of comfort and sophistication.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Products</h1><br>
+      <h4>T-Shirts</h4>
+      <p class="w3-text-grey">Crafted from the finest cotton blends, our T-shirts offer unparalleled comfort and style for your everyday wardrobe. Prices start at ₱700.</p><br>
+    
+      <h4>Hoodies</h4>
+      <p class="w3-text-grey">Wrap yourself in cozy warmth with our signature hoodies, featuring soft fleece lining and contemporary designs. Prices start at ₱1800.</p><br>
+    
+      <h4>Windbreakers</h4>
+      <p class="w3-text-grey">Defy the elements in style with our windbreakers, engineered for optimal protection and breathability. Prices start at ₱2000.</p><br>
+    
+      <h4>Pants</h4>
+      <p class="w3-text-grey">Elevate your look with our range of pants, tailored for both comfort and sophistication. From relaxed styles to loose styles, prices start at ₱1500.</p><br>
+    
+      <h4>Shoes</h4>
+      <p class="w3-text-grey">Step out in confidence with our selection of footwear, meticulously crafted for durability and style. Prices start at ₱3000.</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="clotheshanged.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer deliveries for our online shoppers, anywhere around the Philippines!</p>
+    <p class="w3-text-blue-grey w3-large"><b>Pabayo, Chaves St., Cagayan de Oro City, Philippines </b></p>
+    <p>You can also contact us by phone 00553123-2323 or email steinontheblock@gmail.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
